@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main(){
+    float v,c,l,a;
+    printf("informe o comprimento da caixa:");
+        scanf("%f",&c);
+    
+    printf("informe a altura da caixa: ");
+        scanf("%f",&a);
+    
+    printf("informe a largura da caixa:");
+         scanf("%f",&l);
+    
+         
+         v=c*l*a;
+         
+         printf("o volume da caixa é %.2f\n\n",v);
+ 
+ return (0);
+ 
+         
+}

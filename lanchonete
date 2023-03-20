@@ -1,0 +1,50 @@
+/*/Inicialmente, o programa deve exibir as informações da tabela anterior. Em seguida, 
+o programa deve solicitar e ler o código do item desejado e a quantidade de tal item. 
+Por fim, o programa deve calcular e exibir o valor a ser pago. Considere que, a cada 
+execução do programa, o cliente só pode escolher um item, variando apenas sua 
+quantidade
+/*/
+
+#include <stdio.h>
+int main(){
+   int item,op;
+    printf("informe o item :");
+    scanf("%i",&item);
+/*CÓDIGO DO ITEM ESPECIFICAÇÃO PREÇO UNITÁRIO
+100 Cachorro quente 8,00
+101 Bauru 9,00
+102 X-Salada 10,00
+103 Hambúrguer 12,00
+104 Refrigerante (lata) 3,00
+/*/
+      switch(item) {
+          case 100:
+         printf("Cachorro Quente valor R$ 8,00:"); 
+         break;
+          
+          case 101:
+          printf("Bauru, valor R$ 9,00:");
+          break;
+          
+          
+          case 102:
+          printf("X-Salada, valor R$ 10,00:");
+          break;
+          
+          
+          case 103:
+          printf("Hambúrguer, valor R$ 12,00:");
+          break;
+          
+          
+          case 104:
+          printf("Refrigerante (lata), valor 3,00:");
+          break;
+          
+          return (0);
+      }
+      
+      
+     
+      
+}

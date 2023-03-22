@@ -1,0 +1,12 @@
+algoritmo "ferinha"
+var
+qnt:real
+inicio
+escreval("Informe a quantidade de ma�as:")
+   leia(qnt)
+  se (qnt<=11)entao
+  escreval("O valor a ser pago �:",qnt*1.30)
+  senao
+  escreval("o valor da ma�a �",qnt*1.10)
+fimse
+fimalgoritmo
